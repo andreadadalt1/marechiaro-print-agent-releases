@@ -1,0 +1,22 @@
+# Signing material and secrets
+.env
+.env.*
+*.p12
+*.pfx
+*.key
+*.snk
+private/
+secrets/
+
+# Release binaries belong in GitHub Releases, not Git history
+*.exe
+*.msi
+*.msix
+*.appx
+*.zip
+
+# Local build output
+dist/
+out/
+release/
+tmp/
